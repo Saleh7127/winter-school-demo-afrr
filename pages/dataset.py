@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import sweetviz as sv
-from streamlit.components.v1 import html
 
 # Display DataFrame in Streamlit
 st.header("📊 Dataset Overview")
