@@ -13,7 +13,7 @@ st.write(f"**Target Variable:** Energy Price of Down and Up regulation")
 st.write(f"**Time Range:** **2024-06-20 22:00** -- **2024-12-01 22:00**")  
 
 st.subheader("Plotting of sample")
-st.image('images/dataset_sample.jpeg', caption=f"Plot representation of one week data", use_column_width=True)
+st.image('images/dataset_sample.jpeg', caption=f"Plot representation of one week data")
 
 st.subheader("Vandiagram of missing values")
-st.image('images/miss_van.jpeg', caption=f"Missing values of Down, Up and when both are missing", use_column_width=True)
+st.image('images/miss_van.jpeg', caption=f"Missing values of Down, Up and when both are missing")
