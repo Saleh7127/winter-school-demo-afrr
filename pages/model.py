@@ -45,7 +45,7 @@ col2.metric(label="Up MAE", value=selected_model["up_mae"])
 col3.metric(label="Features Used", value=selected_model["features"])
 
 st.subheader("Up Predictions vs Actual Values")
-st.image(selected_model["up_plot"], caption=f"{selected_model['name']} - Up Predictions", use_column_width=True)
+st.image(selected_model["up_plot"], caption=f"{selected_model['name']} - Up Predictions")
 
 st.subheader("Down Predictions vs Actual Values")
-st.image(selected_model["down_plot"], caption=f"{selected_model['name']} - Down Predictions", use_column_width=True)
+st.image(selected_model["down_plot"], caption=f"{selected_model['name']} - Down Predictions")
