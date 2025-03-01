@@ -21,4 +21,4 @@ cd winter-school-demo-afrr
 
 pip install -r requirements.txt
 
-streamlit run app.py
+streamlit run home.py
