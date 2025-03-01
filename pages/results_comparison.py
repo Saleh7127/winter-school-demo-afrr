@@ -24,7 +24,7 @@ shap_plots = [
 st.title("Testing with Benchmark")
 st.subheader("How Sliding Window testing works for LightGBM?")
 st.write("""The following figure illustrates the training procedure defined by experts. The model is trained for a fixed period (60 or 90 days) and generates predictions for the next 48 hours. However, performance metrics are calculated only for the final 24 hours of the test window, as the first 24 hours are considered less critical. The evaluation includes comparisons against both true and benchmark values. Two training approaches were tested: retraining the model at each step versus continuously updating the existing model with new data. The results indicate that extending the training window improves Down value predictions, and retraining the model yields better performance compared to incremental updates. """)
-st.image("images/sliding_window.png", caption=f"Testing process", use_column_width=True)
+st.image("images/sliding_window.png", caption=f"Testing process")
 
 # Sidebar model selection
 st.sidebar.header("Select Model")
@@ -49,4 +49,4 @@ st.table(df_metrics)
 
 # Display SHAP plot
 st.subheader(f"Results comparison with benchmark: {selected_model['name']}")
-st.image(selected_model["plot"], caption=f"{selected_model['name']} - Comparison with Benchmark", use_column_width=True)
+st.image(selected_model["plot"], caption=f"{selected_model['name']} - Comparison with Benchmark")
