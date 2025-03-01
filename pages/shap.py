@@ -22,6 +22,6 @@ selected_model = st.sidebar.selectbox("Choose a model", list(shap_plots.keys()))
 st.subheader(f"SHAP Feature Importance for {selected_model}")
 
 # Load and display two images
-st.image(shap_plots[selected_model][0], caption=f"{selected_model} - SHAP Importance (Plot 1)", use_column_width=True)
-st.image(shap_plots[selected_model][1], caption=f"{selected_model} - SHAP Importance (Plot 2)", use_column_width=True)
+st.image(shap_plots[selected_model][0], caption=f"{selected_model} - SHAP Importance (Plot 1)")
+st.image(shap_plots[selected_model][1], caption=f"{selected_model} - SHAP Importance (Plot 2)")
 
