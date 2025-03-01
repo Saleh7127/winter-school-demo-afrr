@@ -19,6 +19,6 @@ git clone https://github.com/Saleh7127/winter-school-demo-afrr.git
 
 cd winter-school-demo-afrr
 
-pip install -r requirements.txt
+pip install streamlit==1.26.0 pandas==2.0.3 matplotlib==3.7.2 plotly==5.15.0
 
 streamlit run home.py
