@@ -5,12 +5,11 @@ The aFRR (Automatic Frequency Restoration Reserve) market plays a crucial role i
 
 ### Features 
 
-✅  Results of forecasting models (LightGBM, Darts.LightGBM)
-✅ Model performance comparison (MAE)
-✅ SHAP feature importance analysis
-✅ Visualization of results
-✅ Summary of Dataset
-
+- **Results of forecasting models** (LightGBM, Darts.LightGBM)
+- **Model performance comparison** (MAE)
+- **SHAP feature importance analysis**
+- **Visualization of results**
+- **Summary of Dataset**
 
 ## 🛠️ Installation & Setup
 
